@@ -1,0 +1,79 @@
+    #bootstrap-override img {
+        width: 100%;
+        height: auto;
+    }
+    
+    #bootstrap-override li {
+        line-height: 2.6;
+        margin-right: 5px;
+    }
+    
+    #bootstrap-override .masthead {
+        background-image: url(../images/header.jpg);
+        padding: 15% 0 0 0;
+    }
+    
+    #bootstrap-override .masthead .container {
+        padding-bottom: 0;
+    }
+    
+    #bootstrap-override .masthead h1 {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        background-color: rgba(0, 0, 0, 0.9);
+        color: white;
+        margin: 0;
+        padding: 2rem;
+    }
+    
+    @media all and (min-width: 34rem) {
+        #bootstrap-override li {
+            display: inline;
+        }
+    }
+    
+    body {
+        font-family: 'Source Sans Pro', sans-serif, 'Arial';
+    }
+    
+    header {
+        font-family: 'Averia Serif Libre', serif, 'Times New Roman';
+    }
+    
+    form {
+        padding: 10px 10px 10px 10px;
+        border: 1px solid steelblue;
+        border-style: ;
+    }
+    
+    div div div p {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .container {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    h1 span {
+        background: rgba(0, 0, 0, 0.5);
+        text-align: center;
+    }
+    
+    .masthead img {
+        width: 100%;
+    }
+    
+    hr.small {
+        max-width: 100px;
+        margin: 15px auto;
+        border-width: 4px;
+        border-color: steelblue;
+    }
+    
+    footer {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
